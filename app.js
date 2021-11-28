@@ -16,7 +16,7 @@ let city;
 
 const apiKey = "E99zmmmutPiFo5mWbyOMxtGa7XKvdQFW"; //this is my api key which accuweather gave in a reult of creating my app
 const getCity = async (city) => {
-  const base = `http://dataservice.accuweather.com/locations/v1/cities/search`;
+  const base = `https://dataservice.accuweather.com/locations/v1/cities/search`;
   const query = `?apikey=${apiKey}&q=${city}`;
   const response = await fetch(base + query);
   const cityData = await response.json();
@@ -25,7 +25,7 @@ const getCity = async (city) => {
   // 0 th index wali key ko ham prefer krengy hamesha
 };
 const getWeather = async (cityKey) => {
-  const base = `http://dataservice.accuweather.com/currentconditions/v1/`;
+  const base = `https://dataservice.accuweather.com/currentconditions/v1/`;
   const query = `${cityKey}?apikey=${apiKey}&details=true`;
   const response = await fetch(base + query);
   const weatherDetails = await response.json();
