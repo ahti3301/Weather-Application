@@ -14,7 +14,7 @@ const p = document.querySelector("p");
 const line = document.querySelector(".line");
 let city;
 
-const apiKey = "E99zmmmutPiFo5mWbyOMxtGa7XKvdQFW"; //this is my api key which accuweather gave in a reult of creating my app
+const apiKey = "KAIUdyGW9Wpzox54zodpCrrqGv8f80pF"; //this is my api key which accuweather gave in a reult of creating my app
 const getCity = async (city) => {
   const base = `https://dataservice.accuweather.com/locations/v1/cities/search`;
   const query = `?apikey=${apiKey}&q=${city}`;
