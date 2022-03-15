@@ -22,6 +22,6 @@ In this application i fetched data asynchronously from a weather Api (developer.
 - Asynchronous Javascript (ES6)
 - Bootstrap 5
 
-## Deployment:
+## ![icons8-deployment-40](https://user-images.githubusercontent.com/66128446/158442096-8ff90d02-ae07-4254-b10d-cf2109c05339.png) Deployment:
 - netlify
     https://weather-app-dev-ak.netlify.app/
